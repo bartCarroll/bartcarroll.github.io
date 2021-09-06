@@ -1,6 +1,6 @@
 +++
-title = "lil-rusty"
-description = "Collection of small rust projects to help me learn Rust."
+title = "Lil' Rusty"
+description = "Collection of small projects to help me learn Rust."
 date = 2020-08-30
 
 [taxonomies]
