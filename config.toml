@@ -31,8 +31,8 @@ navbar_items = [
         { url = "$BASE_URL/", name = "Home" },
         { url = "$BASE_URL/posts", name = "Blog" },
         { url = "$BASE_URL/projects", name = "Projects" },
-        { url = "$BASE_URL/tags", name = "Tags" },
-        { url = "$BASE_URL/categories", name = "Categories" },
+ #       { url = "$BASE_URL/tags", name = "Tags" },
+ #       { url = "$BASE_URL/categories", name = "Categories" },
     ] },
 ]
 
@@ -44,7 +44,7 @@ safari_pinned_tab = "/icons/safari-pinned-tab.svg"
 webmanifest = "/icons/site.webmanifest"
 
 [extra.author]
-name = "IAmBort"
+name = "Bort"
 avatar = "/images/avatar.png"
 
 [extra.social]
