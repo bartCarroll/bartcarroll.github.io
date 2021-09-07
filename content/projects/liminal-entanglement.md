@@ -1,6 +1,6 @@
 +++
 title = "Liminal Entanglement"
-description = "Burning Man 2019 Project"
+description = "Art Piece for Burning Man 2019"
 date = 2020-09-06
 
 [taxonomies]
