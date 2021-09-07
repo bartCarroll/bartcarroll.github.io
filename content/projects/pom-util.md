@@ -1,7 +1,7 @@
 +++
 title = "Pom Utility for Rust"
 description = "Rust module for reading Maven Poms."
-date = 2020-09-06
+date = 2021-09-06
 
 [taxonomies]
 categories = ["Projects"]

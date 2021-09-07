@@ -1,7 +1,7 @@
 +++
 title = "Lil' Rusty"
 description = "Collection of small projects to help me learn Rust."
-date = 2020-08-30
+date = 2021-08-30
 
 [taxonomies]
 categories = ["Projects"]

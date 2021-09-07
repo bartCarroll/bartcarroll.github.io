@@ -1,7 +1,7 @@
 +++
 title = "Liminal Entanglement"
 description = "Art Piece for Burning Man 2019"
-date = 2020-09-06
+date = 2021-09-06
 
 [taxonomies]
 categories = ["Projects"]
