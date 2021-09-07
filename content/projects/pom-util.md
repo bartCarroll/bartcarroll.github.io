@@ -12,6 +12,6 @@ toc = false
 comments = true
 +++
 
-[Pom Utility for Rust](https://github.com/iambort/pom-util) is a Rust module that can be used to read maven poms. The reason for creating this utility is I wanted to read certain attributes from maven poms without having to run a full JVM docker container.
+[Pom Utility for Rust](https://github.com/iambort/pom-util) is a Rust module that can be used to read maven poms. The reason for creating this utility is I wanted to read certain attributes from Maven POMs without having to run a full JVM docker container. The eventual goal is to support variable interpolation and to be able to evaluate the effective POM when multiple parents are in the hierarchy. 
 
-Also, I used this as an opportunity to write integration tests in Rust.
+This project makes use of [serde](https://crates.io/crates/serde) and [quick-xml](https://crates.io/crates/quick-xml) to parse the xml into structs in Rust. Additionally, the project uses the [rstest](https://crates.io/crates/rstest) crate to add parameterized integration tests.
