@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>IAmBort</title>
+        <link>https://iambort.github.io</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://iambort.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate>
+        <item>
+            <title>Liminal Entanglement</title>
+            <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+            <link>https://iambort.github.io/projects/liminal-entanglement/</link>
+            <guid>https://iambort.github.io/projects/liminal-entanglement/</guid>
+            <description>&lt;p&gt;For the Burning Man 2019 festival, our resident camp artist &lt;a href=&quot;https:&#x2F;&#x2F;www.stevendoughty.com&#x2F;about&quot;&gt;Steven Doughty&lt;&#x2F;a&gt; designed an art piece to represent different boundaries faced in life. The piece was a locked door, along with a flip-dot display terminal containing audio and visual elements. The terminal challeged users with a variety of questions to unlock the door, but much like in life, sometimes there is no right answer. &lt;&#x2F;p&gt;
+&lt;p&gt;For this project, I created the circuit designs and GPIO interactions with the Raspberry Pi, along with interfacing with the flipdot display drivers. This was a fun project as the entire system had to be run off of solar power, and had to withstand the harsh environment of the Black Rock Desert.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Project Source Code:&lt;&#x2F;strong&gt; &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iambort&#x2F;liminal-entanglement&quot;&gt;source&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Technologies Used:&lt;&#x2F;strong&gt; Raspberry PI, Python, SQLite&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;More Info&lt;&#x2F;strong&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.stevendoughty.com&#x2F;liminal-entanglement&quot;&gt;Liminal Entanglement&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;terminal_diagram.png&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;door-construction.png&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;door-2.png&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;sunset-burn.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Pom Utility for Rust</title>
+            <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+            <link>https://iambort.github.io/projects/pom-util/</link>
+            <guid>https://iambort.github.io/projects/pom-util/</guid>
+            <description>&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iambort&#x2F;pom-util&quot;&gt;Pom Utility for Rust&lt;&#x2F;a&gt; is a Rust module that can be used to read maven poms. The reason for creating this utility is I wanted to read certain attributes from Maven POMs without having to run a full JVM docker container. The eventual goal is to support variable interpolation and to be able to evaluate the effective POM when multiple parents are in the hierarchy. &lt;&#x2F;p&gt;
+&lt;p&gt;This project makes use of &lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;serde&quot;&gt;serde&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;quick-xml&quot;&gt;quick-xml&lt;&#x2F;a&gt; to parse the xml into structs in Rust. Additionally, the project uses the &lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;rstest&quot;&gt;rstest&lt;&#x2F;a&gt; crate to add parameterized integration tests.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Lil&#x27; Rusty</title>
+            <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+            <link>https://iambort.github.io/projects/lil-rusty/</link>
+            <guid>https://iambort.github.io/projects/lil-rusty/</guid>
+            <description>&lt;p&gt;I created &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iambort&#x2F;lil-rusty&quot;&gt;lil-rusty&lt;&#x2F;a&gt; as a side project to introduce myself to concepts in Rust. I called the repo &amp;quot;lil-rusty&amp;quot; because it had been a while since i had tried out a new language, so I was a little rusty!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;modules&quot;&gt;Modules&lt;&#x2F;h2&gt;
+&lt;p&gt;All of the below modules are written in Rust.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iambort&#x2F;lil-rusty&#x2F;tree&#x2F;master&#x2F;lil-hello&quot;&gt;lil-hello&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; -  Basic hello world application with dockerfile for building and running.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iambort&#x2F;lil-rusty&#x2F;tree&#x2F;master&#x2F;checkit&quot;&gt;checkit&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; - Utility for performing a periodic backoff status check on a given URL. Also includes a dockerfile for building and executing in a container.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iambort&#x2F;lil-rusty&#x2F;tree&#x2F;master&#x2F;lil-servy&#x2F;&quot;&gt;lil-servy&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; - Simple TCP server.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iambort&#x2F;lil-rusty&#x2F;tree&#x2F;master&#x2F;lil-testy&quot;&gt;lil-testy&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; - Simple unit tests.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+        </item>
+        <item>
+            <title>Hello World!</title>
+            <pubDate>Tue, 29 Jun 2021 19:33:42 +0000</pubDate>
+            <link>https://iambort.github.io/posts/hello-world/</link>
+            <guid>https://iambort.github.io/posts/hello-world/</guid>
+            <description>&lt;p&gt;Howdy! I&#x27;ve waited long enough to start up a website again. Things have changed a
+lot since my old days running Wordpress and PHPBB forums. The plan is for this
+site to showcase some of the projects I&#x27;m working on, share things I find
+interesting, and publish some guides that maybe someone will find useful. The majority 
+of the content will probably be Software&#x2F;Engineering&#x2F;Art&#x2F;Science focused.&lt;&#x2F;p&gt;
+&lt;p&gt;For now the content will be mostly static, but I&#x27;ll investigate making it more
+interactive in the future. &lt;&#x2F;p&gt;
+</description>
+        </item>
+    </channel>
+</rss>
